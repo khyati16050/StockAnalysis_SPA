@@ -1,0 +1,60 @@
+section.profile-section-container {
+    text-align: center;
+    color: #bacee6;
+    margin: 5vh 0;
+    padding-top: 5vh;
+}
+
+.profile-section-container>h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color: cornsilk;
+    font-size: 2.5em;
+}
+
+/* .profile-section-container>p {
+    text-align: center;
+    color: cornsilk;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+} */
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 5vh 3vw;
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    /* justify-content: space-between; */
+}
+
+.card img {
+    height: 20vh;
+    width: 10vw;
+    border: 0;
+    
+}
+
+.card h2 {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+}
+
+.card p {
+    text-align: left;
+    color: black;
+    font-size: 1em;
+}
